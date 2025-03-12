@@ -216,28 +216,5 @@ public class NumberPrograms {
         System.out.println(average);
     }
 
-// Program to reverse the string
-public static void reverseString() {
-    String s="SDET ENGINEER";
-
-    for (int i=s.length()-1 ;i>=0; i--){
-        System.out.print(s.charAt(i));
-    }
-}
-//Program to reverse the string using string buffer
-public static void reverseStringStringBuffer() {
-
-    String str="Shlok Sachin Dadhe";
-
-    StringBuffer sb=new StringBuffer(str);
-    StringBuffer str1 = sb.reverse();
-
-    // print original string
-    System.out.println(str);
-    // reverse order string
-    System.out.println(str1);
-}
-
-
 
 }
