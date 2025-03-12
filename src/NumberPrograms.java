@@ -216,5 +216,14 @@ public class NumberPrograms {
         System.out.println(average);
     }
 
+// Program to reverse the string
+public static void reverseString() {
+    String s="SDET ENGINEER";
+
+    for (int i=s.length()-1 ;i>=0; i--){
+        System.out.print(s.charAt(i));
+    }
+}
+
 
 }
