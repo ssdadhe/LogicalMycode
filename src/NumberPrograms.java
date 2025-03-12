@@ -224,6 +224,20 @@ public static void reverseString() {
         System.out.print(s.charAt(i));
     }
 }
+//Program to reverse the string using string buffer
+public static void reverseStringStringBuffer() {
+
+    String str="Shlok Sachin Dadhe";
+
+    StringBuffer sb=new StringBuffer(str);
+    StringBuffer str1 = sb.reverse();
+
+    // print original string
+    System.out.println(str);
+    // reverse order string
+    System.out.println(str1);
+}
+
 
 
 }
